@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-v0.100%2B-009688.svg)](https://fastapi.tiangolo.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-Latest-003B57.svg)](https://www.sqlite.org/)
-[![Status](https://img.shields.io/badge/Deployment-Live-brightgreen.svg)]()
+[![Status](https://img.shields.io/badge/Deployment-Offline%20Maturity-orange.svg)]()
 
 AegisNet is an autonomous, decentralized disaster management architecture engineered to provide localized triage, rescue vector mapping, and emergency network routing when standard cellular towers, power grids, and internet infrastructure fail completely. 
 
@@ -28,7 +28,8 @@ The system abstracts high-overhead Deep Learning workflows into optimized, low-l
     * **Frontend Stream:** Vanilla JavaScript Event-Loop with Live Dynamic Dashboard
     * **Networking Layer:** Socket Programming Protocols
 
----## 💻 System Interfaces (Production Snapshots)
+---
+
 ## 💻 System Interfaces (Production Snapshots)
 
 ### 1. Central Control Center & Operator Panel
@@ -37,7 +38,23 @@ The system abstracts high-overhead Deep Learning workflows into optimized, low-l
 ![System Dashboard](Screenshot_6-7-2026_11386_.jpeg)
 
 ### 2. Live Simulation: Laptop Node (Server & Operator View)
-<video controls src="README.md - Flood - Visual Studio Code 2026-07-06 11-33-35.mp4" title="Title"></video>
+*Below is the simulation window showing the async backend terminal actively listening to local Wi-Fi interface sockets and instantly categorizing raw triage strings using structural metadata analysis.*
+
+<video src="README.md%20-%20Flood%20-%20Visual%20Studio%20Code%202026-07-06%2011-33-35.mp4" width="100%" controls></video>
 
 ### 3. Live Simulation: Mobile Node (Civilian Client View)
-<video controls src="Screenrecorder-2026-07-06-20-15-09-666-1.mp4" title="Title"></video>
+*Below is the terminal capture from an independent mobile field node connected over an offline network mesh hotspot, demonstrating interactive multipart photo uploading and geolocation reporting metrics directly to the ledger.*
+
+<video src="Screenrecorder-2026-07-06-20-15-09-666-1.mp4" width="100%" controls></video>
+
+---
+
+## 🚀 The Dual-Role Simulation Pipeline (How to Run It)
+
+You can run a complete end-to-end integration test on a single host machine by letting the laptop act as **both the server host and a client node simultaneously**.
+
+### 1. Initialize the Core Engine
+Ensure your dependencies are installed, then boot up your edge server node:
+```bash
+pip install -r requirements.txt
+python app.py
