@@ -165,10 +165,6 @@ aegisnet/
 
 ---
 
-## 📝 Notes
-
-- Place both `.mp4` demo files in the repository root (same directory as this `README.md`) so the links above resolve correctly on GitHub/GitLab.
-- Screenshot/diagram placeholders are marked above — swap them in as image files (`./assets/*.png`) once available for a fully "production snapshot" README.
 
 <div align="center">
 
