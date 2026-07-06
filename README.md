@@ -28,9 +28,15 @@ The system abstracts high-overhead Deep Learning workflows into optimized, low-l
     * **Frontend Stream:** Vanilla JavaScript Event-Loop with Live Dynamic Dashboard
     * **Networking Layer:** Socket Programming Protocols
 
----
+---## 💻 System Interfaces (Production Snapshots)
 
-## 💻 System Interfaces (Production Snapshots)
+### 1. Central Control Center & Operator Panel
+![System Dashboard](Screenshot_6-7-2026_11386_.jpeg)
 
+### 2. Live Simulation: Laptop Node (Server & Operator View)
+<video src="README.md - Flood - Visual Studio Code 2026-07-06 11-33-35.mp4" width="100%" controls></video>
+
+### 3. Live Simulation: Mobile Node (Civilian Client View)
+<video controls src="Screenrecorder-2026-07-06-20-15-09-666.mp4" width="100%" ></video>
 ### 1. Central Control Center & Operator Panel
 *Below is the centralized dashboard monitoring the live SQLite state ledger. The layout background mutates automatically based on the incoming risk threat level (Standby Mode vs. Critical Red Alert).*
