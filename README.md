@@ -45,13 +45,17 @@ The system abstracts high-overhead Deep Learning workflows into optimized, low-l
 ### 3. Live Simulation: Mobile Node (Civilian Client View)
 *Below is the terminal capture from an independent mobile field node connected over an offline network mesh hotspot, demonstrating interactive multipart photo uploading and geolocation reporting metrics directly to the ledger.*
 
-<video src="Screenrecorder-2026-07-06-20-15-09-666-1.mp4" width="100%" controls></video>
+
 
 ---
 
 ## 🚀 The Dual-Role Simulation Pipeline (How to Run It)
 
-You can run a complete end-to-end integration test on a single host machine by letting the laptop act as **both the server host and a client node simultaneously**.
+You can run a complete end-to-end 
+
+Uploading Screenrecorder-2026-07-06-20-15-09-666.mp4…
+
+integration test on a single host machine by letting the laptop act as **both the server host and a client node simultaneously**.
 
 ### 1. Initialize the Core Engine
 Ensure your dependencies are installed, then boot up your edge server node:
